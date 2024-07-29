@@ -1,29 +1,17 @@
-img{
-    width: 300px;
+p{
+    background-color: aqua;
+    color: blueviolet;
 }
 
-h1{
-    padding: 5px;
-    font-family: arial;
-    font-size: 24px;
-    color: white;
-    background-color: rgb(255, 0, 0)
+strong{
+    color:brown;
 }
 
-author-name-date{
-    font-family: arial;
-    font-size: 12px;
-    color: lightgray;
+strong:hover{
+    background-color: lightyellow;
 }
 
-p ol {
-    font-family: arial;
-    color: rgb(128, 128, 128);
-    font-size: 16px;
-}
-
-a {
-  font-family: Arial;
-  font-size: 12px;
-  color: blue;
+.names{
+font-family: 'sans serif';
+font-size: large;
 }
