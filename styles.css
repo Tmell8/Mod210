@@ -1,0 +1,29 @@
+img{
+    width: 300px;
+}
+
+h1{
+    padding: 5px;
+    font-family: arial;
+    font-size: 24px;
+    color: white;
+    background-color: rgb(255, 0, 0)
+}
+
+author-name-date{
+    font-family: arial;
+    font-size: 12px;
+    color: lightgray;
+}
+
+p ol {
+    font-family: arial;
+    color: rgb(128, 128, 128);
+    font-size: 16px;
+}
+
+a {
+  font-family: Arial;
+  font-size: 12px;
+  color: blue;
+}
