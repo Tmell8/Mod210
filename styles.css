@@ -1,17 +1,27 @@
-p{
-    background-color: aqua;
-    color: blueviolet;
+:root {
+   --table-color: forestgreen;
+   --row-bg-color: honeydew;
+   font-family: Calibri, Myriad;
+}
+#game-table{
+    border: 2px solid var(--table-color);
+    text-align: center;
+    height: 200px;
+    width: 400px;
 }
 
-strong{
-    color:brown;
+table caption {
+    text-transform: uppercase;
+    background-color: var(--table-color);
+    color: white;
+    padding: 10px;
+
 }
 
-strong:hover{
-    background-color: lightyellow;
+tr:nth-child(even){
+    background-color: var(--row-bg-color);
+
 }
 
-.names{
-font-family: 'sans serif';
-font-size: large;
-}
+
+   
