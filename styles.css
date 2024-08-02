@@ -1,8 +1,53 @@
-.media-container {
-    display: grid;                      
-    grid-template-columns: repeat(auto-fit, minmax(0, 90px)); 
-    background-color: lightgreen;        
-    text-align: center;                  
-    padding: 20px;                       
-    border: 2px solid blue;              
+/* Style for <header> tag */
+header {
+    display: flex;
+    justify-content: space-between;
 }
+
+/* Style for content class */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for main-content class */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 70%;
+}
+
+/* Style for title class */
+.title {
+    display: flex;
+    align-items: baseline;
+}
+
+/* Style for summary class */
+.summary {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+/* Style for <div> tag child of <div> tag child of summary class */
+.summary > div > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style for ingredients and directions classes */
+.ingredients, .directions {
+    flex-grow: 1;
+    flex-basis: 45%;
+}
+
+/* Style for related-content class */
+.related-content {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+
