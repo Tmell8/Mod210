@@ -1,53 +1,25 @@
-/* Style for <header> tag */
-header {
-    display: flex;
-    justify-content: space-between;
+body {
+   font-family: Roboto, Helvetica, sans-serif;
+   text-align: center;
 }
 
-/* Style for content class */
-.content {
-    display: flex;
-    flex-wrap: wrap;
+.x {
+   color: red;
 }
 
-/* Style for main-content class */
-.main-content {
-    display: flex;
-    flex-wrap: wrap;
-    flex-grow: 1;
-    flex-basis: 70%;
+.o {
+   color: blue;
+ }
+ 
+ #board {
+   display: grid;
+   grid-template-columns: repeat(3, 100px); 
+   grid-template-rows: repeat(3, 100px); 
+   grid-gap: 10px; 
+   justify-content: center;
 }
 
-/* Style for title class */
-.title {
-    display: flex;
-    align-items: baseline;
+#board > div {
+   border: 1px solid LightSkyBlue;
+   text-align: center;
 }
-
-/* Style for summary class */
-.summary {
-    display: flex;
-    justify-content: space-evenly;
-    flex-grow: 1;
-    flex-basis: 100%;
-}
-
-/* Style for <div> tag child of <div> tag child of summary class */
-.summary > div > div {
-    display: flex;
-    justify-content: space-between;
-}
-
-/* Style for ingredients and directions classes */
-.ingredients, .directions {
-    flex-grow: 1;
-    flex-basis: 45%;
-}
-
-/* Style for related-content class */
-.related-content {
-    flex-grow: 1;
-    flex-basis: 20%;
-}
-
-
