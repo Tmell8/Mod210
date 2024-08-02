@@ -1,83 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="UTF-8">
-   <title>Auto Purchase Offer and Loan Comparison</title>
-   <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song Formatting</title>
+    <style>
+        .outer-container {
+            width: 600px;
+            height: 280px;
+            border: 2px solid blue;
+            padding: 5px;
+            background-color: #F0F0F0;
+        }
+        h2 {
+            font-family: Arial, sans-serif;
+            font-size: 16pt;
+            color: blue;
+            font-style: italic;
+        }
+        .yellow-section {
+            background-color: yellow;
+            float: left;
+            width: 200px;
+            padding: 10px;
+            margin-right: 10px;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+        .orange-section {
+            background-color: orange;
+            position: absolute;
+            top: 200px;
+            left: 110px;
+            width: 200px;
+            padding: 10px;
+        }
+        .orange-red-section {
+            background-color: rgb(255, 80, 0);
+            color: white;
+            float: right;
+            width: 200px;
+            padding: 10px;
+            margin-right: 40px;
+            margin-top: 20px;
+            margin-bottom: 0;
+            margin-left: 0;
+        }
+    </style>
 </head>
 <body>
-	<div class="container">
-      <h1>Comparison of Dealer Incentives and Loan Offers</h1>
-		<section class="offer">
-		   <h2 class="offer-title">Purchase Offer 1</h2>
-		   <div class="offer-contents">
-		      <table>
-   		      <tr>
-		            <th>Item</th>
-		            <th>Cost</th>
-		         </tr>
-		         <tr>
-   		         <td>Purchase price:</td>
-		            <td>$33,500</td>
-		         </tr>
-		         <tr>
-   		         <td>Cash incentive/rebate:</td>
-		            <td>$0</td>
-		         </tr>
-		         <tr>
-   		         <td>Loan term (months):</td>
-		            <td>48</td>
-		         </tr>
-		         <tr>
-   		         <td>Annual percentage rate (APR):</td>
-		            <td>3.2</td>
-		         </tr>
-		         <tr>
-   		         <td>Monthly payment:</td>
-		            <td>$725.33</td>
-		         </tr>
-		         <tr>
-   		         <td>Total cost:</td>
-		            <td class="final-value">$34,815.62</td>
-		         </tr>
-		      </table>
-		   </div>
-		</section>
-		<section class="offer">
-		   <h2 class="offer-title">Purchase Offer 2</h2>
-		   <div class="offer-contents">
-   		   <table>
-		         <tr>
-   		         <th>Item</th>
-		            <th>Cost</th>
-		         </tr>
-		         <tr>
-   		         <td>Purchase price:</td>
-		            <td>$33,500</td>
-		         </tr>
-		         <tr>
-   		         <td>Cash incentive/rebate:</td>
-		            <td>$500</td>
-		         </tr>
-		         <tr>
-   		         <td>Loan term (months):</td>
-		            <td>48</td>
-		         </tr>
-		         <tr>
-   		         <td>Annual percentage rate (APR):</td>
-		            <td>4.1</td>
-		         </tr>
-		         <tr>
-   		         <td>Monthly payment:</td>
-		            <td>$746.59</td>
-		         </tr>
-		         <tr>
-   		         <td>Total cost:</td>
-		            <td class="final-value">$35,836.15</td>
-		         </tr>
-		      </table>
-		   </div>
-		</section>
-	</div>
+    <div class="outer-container">
+        <h2>Yesterday</h2>
+        <div class="yellow-section">
+            Yesterday, All those backups seemed a waste of pay. Now my database has gone away. Oh I believe in yesterday.
+        </div>
+        <div>
+            Suddenly, There's not half the files there used to be, And there's a milestone hanging over me. The system crashed so suddenly. I pushed something wrong, What it was I could not say.
+        </div>
+        <div class="orange-section">
+            Now all my data's gone and I long for yesterday-ay-ay-ay.
+        </div>
+        <div class="orange-red-section">
+            Yesterday, The need for back-ups seemed so far away. I knew my data was all here to stay, Now I believe in yesterday.
+        </div>
+    </div>
 </body>
 </html>
