@@ -1,25 +1,40 @@
-body {
-   font-family: Roboto, Helvetica, sans-serif;
-   text-align: center;
+
+.table {
+   background: linear-gradient(to bottom, forestgreen, darkgreen);
 }
 
-.x {
-   color: red;
+
+.card {
+   border-radius: 5px;
+   box-shadow: 3px 3px black;
 }
 
-.o {
-   color: blue;
- }
- 
- #board {
-   display: grid;
-   grid-template-columns: repeat(3, 100px); 
-   grid-template-rows: repeat(3, 100px); 
-   grid-gap: 10px; 
-   justify-content: center;
+
+.cardTop {
+   position: absolute;
+   left: 150px;
+   top: 100px;
+   z-index: 2; 
 }
 
-#board > div {
-   border: 1px solid LightSkyBlue;
-   text-align: center;
+
+.cardBottom {
+   position: absolute;
+   left: 240px;
+   top: 120px;
+   z-index: 1; 
+}
+
+
+.topLeft {
+   position: absolute;
+   left: 2px;
+   top: 2px;
+}
+
+
+.bottomRight {
+   position: absolute;
+   right: 2px;
+   bottom: 2px;
 }
