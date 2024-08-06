@@ -8,9 +8,30 @@
     <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
     <script src='main.js'></script>
 </head>
+<body>
+    <header>
+        <h1>Our Team</h1>
 
+    </main>
     <style>
-       
+        body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px;
+    width: 340px;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1 {
+    font-size: 24px;
+}
         #teamdisplay {
             display: flex;
             flex-wrap: wrap;
@@ -18,17 +39,24 @@
             gap: 20px;
         }
 
-        .team-member {
-            border: 1px solid #ddd;
-            border-radius: 8px;
-            padding: 15px;
-            max-width: 250px;
-            text-align: center;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    .team-member {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
 
         .team-member img {
-            width: 100%;
+            width: 50%;
             border-radius: 50%;
             margin-bottom: 10px;
         }
@@ -51,6 +79,7 @@
         .team-member a:hover {
             text-decoration: underline;
         }
+
     </style>
 </head>
 <body>
@@ -95,6 +124,7 @@
             <p>Email: <a href="mailto:michael.brown@example.com">michael.brown@example.com</a></p>
         </div>
     </div>
+    
 
 </body>
 </html>
